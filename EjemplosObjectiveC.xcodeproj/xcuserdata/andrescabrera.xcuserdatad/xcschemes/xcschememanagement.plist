@@ -12,7 +12,7 @@
 		<key>ClasesConConstructores.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>4</integer>
 		</dict>
 		<key>DefinicionClases/Constructores.xcscheme</key>
 		<dict>
@@ -33,6 +33,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
+		</dict>
+		<key>UsoDePropiedades.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -58,6 +63,11 @@
 			<true/>
 		</dict>
 		<key>7A350ACE1CF6A694009DFEFE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7A350AE01CF6B03C009DFEFE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
