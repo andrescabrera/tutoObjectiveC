@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>Condicionales.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>DefinicionClases/Constructores.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -68,6 +73,11 @@
 			<true/>
 		</dict>
 		<key>7A350AE01CF6B03C009DFEFE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7A350AEE1CFA0745009DFEFE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
