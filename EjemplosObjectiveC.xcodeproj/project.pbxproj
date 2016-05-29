@@ -18,6 +18,9 @@
 		7A350AF21CFA0745009DFEFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A350AF11CFA0745009DFEFE /* main.m */; };
 		7A350AF81CFA098A009DFEFE /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A350AF71CFA098A009DFEFE /* Square.m */; };
 		7A350AFC1CFA0C4A009DFEFE /* SquareComparer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A350AFB1CFA0C4A009DFEFE /* SquareComparer.m */; };
+		7A350B041CFB6337009DFEFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A350B031CFB6337009DFEFE /* main.m */; };
+		7A350B091CFB636A009DFEFE /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A350B081CFB636A009DFEFE /* Square.m */; };
+		7A350B0D1CFB63C1009DFEFE /* SquareComparer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A350B0C1CFB63C1009DFEFE /* SquareComparer.m */; };
 		7A93A1441CEBE35400BF5C55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A93A1431CEBE35400BF5C55 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +79,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		7A350AFF1CFB6337009DFEFE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		7A93A13E1CEBE35400BF5C55 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -109,8 +121,14 @@
 		7A350AF11CFA0745009DFEFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7A350AF61CFA097A009DFEFE /* Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
 		7A350AF71CFA098A009DFEFE /* Square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
-		7A350AF91CFA09DA009DFEFE /* SquareComparer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareComparer.h; sourceTree = "<group>"; };
+		7A350AF91CFA09DA009DFEFE /* SquareComparer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SquareComparer.h; path = ../Condicionales/SquareComparer.h; sourceTree = "<group>"; };
 		7A350AFB1CFA0C4A009DFEFE /* SquareComparer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareComparer.m; sourceTree = "<group>"; };
+		7A350B011CFB6337009DFEFE /* Condicionales-Switch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Condicionales-Switch"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A350B031CFB6337009DFEFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A350B081CFB636A009DFEFE /* Square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
+		7A350B0A1CFB6376009DFEFE /* Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
+		7A350B0B1CFB6381009DFEFE /* SquareComparer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SquareComparer.h; path = "Condicionales-Switch/SquareComparer.h"; sourceTree = SOURCE_ROOT; };
+		7A350B0C1CFB63C1009DFEFE /* SquareComparer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareComparer.m; sourceTree = "<group>"; };
 		7A93A1401CEBE35400BF5C55 /* EjemplosObjectiveC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EjemplosObjectiveC; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A93A1431CEBE35400BF5C55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -152,6 +170,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7A350AEC1CFA0745009DFEFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A350AFE1CFB6337009DFEFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -215,16 +240,29 @@
 			path = UsoDePropiedades;
 			sourceTree = "<group>";
 		};
-		7A350AF01CFA0745009DFEFE /* Condicionales */ = {
+		7A350AF01CFA0745009DFEFE /* Condicionales-If */ = {
 			isa = PBXGroup;
 			children = (
 				7A350AF71CFA098A009DFEFE /* Square.m */,
 				7A350AF61CFA097A009DFEFE /* Square.h */,
 				7A350AF11CFA0745009DFEFE /* main.m */,
-				7A350AF91CFA09DA009DFEFE /* SquareComparer.h */,
+				7A350B0B1CFB6381009DFEFE /* SquareComparer.h */,
 				7A350AFB1CFA0C4A009DFEFE /* SquareComparer.m */,
 			);
+			name = "Condicionales-If";
 			path = Condicionales;
+			sourceTree = "<group>";
+		};
+		7A350B021CFB6337009DFEFE /* Condicionales-Switch */ = {
+			isa = PBXGroup;
+			children = (
+				7A350B0C1CFB63C1009DFEFE /* SquareComparer.m */,
+				7A350AF91CFA09DA009DFEFE /* SquareComparer.h */,
+				7A350B0A1CFB6376009DFEFE /* Square.h */,
+				7A350B081CFB636A009DFEFE /* Square.m */,
+				7A350B031CFB6337009DFEFE /* main.m */,
+			);
+			path = "Condicionales-Switch";
 			sourceTree = "<group>";
 		};
 		7A93A1371CEBE35400BF5C55 = {
@@ -237,7 +275,8 @@
 				7A350AB71CF69FD0009DFEFE /* DefinicionClases */,
 				7A350AD01CF6A694009DFEFE /* ClasesConConstructores */,
 				7A350AE21CF6B03C009DFEFE /* UsoDePropiedades */,
-				7A350AF01CFA0745009DFEFE /* Condicionales */,
+				7A350AF01CFA0745009DFEFE /* Condicionales-If */,
+				7A350B021CFB6337009DFEFE /* Condicionales-Switch */,
 				7A93A1411CEBE35400BF5C55 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -252,6 +291,7 @@
 				7A350ACF1CF6A694009DFEFE /* ClasesConConstructores */,
 				7A350AE11CF6B03C009DFEFE /* UsoDePropiedades */,
 				7A350AEF1CFA0745009DFEFE /* Condicionales */,
+				7A350B011CFB6337009DFEFE /* Condicionales-Switch */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -369,6 +409,23 @@
 			productReference = 7A350AEF1CFA0745009DFEFE /* Condicionales */;
 			productType = "com.apple.product-type.tool";
 		};
+		7A350B001CFB6337009DFEFE /* Condicionales-Switch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A350B051CFB6337009DFEFE /* Build configuration list for PBXNativeTarget "Condicionales-Switch" */;
+			buildPhases = (
+				7A350AFD1CFB6337009DFEFE /* Sources */,
+				7A350AFE1CFB6337009DFEFE /* Frameworks */,
+				7A350AFF1CFB6337009DFEFE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Condicionales-Switch";
+			productName = "Condicionales-Switch";
+			productReference = 7A350B011CFB6337009DFEFE /* Condicionales-Switch */;
+			productType = "com.apple.product-type.tool";
+		};
 		7A93A13F1CEBE35400BF5C55 /* EjemplosObjectiveC */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A93A1471CEBE35400BF5C55 /* Build configuration list for PBXNativeTarget "EjemplosObjectiveC" */;
@@ -413,6 +470,9 @@
 					7A350AEE1CFA0745009DFEFE = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					7A350B001CFB6337009DFEFE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					7A93A13F1CEBE35400BF5C55 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -437,6 +497,7 @@
 				7A350ACE1CF6A694009DFEFE /* ClasesConConstructores */,
 				7A350AE01CF6B03C009DFEFE /* UsoDePropiedades */,
 				7A350AEE1CFA0745009DFEFE /* Condicionales */,
+				7A350B001CFB6337009DFEFE /* Condicionales-Switch */,
 			);
 		};
 /* End PBXProject section */
@@ -492,6 +553,16 @@
 				7A350AF81CFA098A009DFEFE /* Square.m in Sources */,
 				7A350AFC1CFA0C4A009DFEFE /* SquareComparer.m in Sources */,
 				7A350AF21CFA0745009DFEFE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A350AFD1CFB6337009DFEFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A350B091CFB636A009DFEFE /* Square.m in Sources */,
+				7A350B0D1CFB63C1009DFEFE /* SquareComparer.m in Sources */,
+				7A350B041CFB6337009DFEFE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,6 +655,20 @@
 			name = Debug;
 		};
 		7A350AF51CFA0745009DFEFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7A350B061CFB6337009DFEFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7A350B071CFB6337009DFEFE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -737,6 +822,14 @@
 			buildConfigurations = (
 				7A350AF41CFA0745009DFEFE /* Debug */,
 				7A350AF51CFA0745009DFEFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A350B051CFB6337009DFEFE /* Build configuration list for PBXNativeTarget "Condicionales-Switch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A350B061CFB6337009DFEFE /* Debug */,
+				7A350B071CFB6337009DFEFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>Condicionales-Switch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>Condicionales.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -78,6 +83,11 @@
 			<true/>
 		</dict>
 		<key>7A350AEE1CFA0745009DFEFE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7A350B001CFB6337009DFEFE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

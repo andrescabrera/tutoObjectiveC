@@ -2,7 +2,7 @@
 //  SquareComparer.h
 //  EjemplosObjectiveC
 //
-//  Created by Andres Cabrera on 29/5/16.
+//  Created by Andres Cabrera on 28/5/16.
 //  Copyright © 2016 Andres Cabrera. All rights reserved.
 //
 
