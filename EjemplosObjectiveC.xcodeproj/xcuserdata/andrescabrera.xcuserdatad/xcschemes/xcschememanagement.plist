@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Bucles.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
 		<key>Clases.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -43,6 +48,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
+		</dict>
+		<key>TryCatch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
 		</dict>
 		<key>UsoDePropiedades.xcscheme</key>
 		<dict>
@@ -88,6 +98,16 @@
 			<true/>
 		</dict>
 		<key>7A350B001CFB6337009DFEFE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7A350B111CFBA88C009DFEFE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7A350B241CFBABFD009DFEFE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
